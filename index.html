@@ -1120,7 +1120,7 @@
 	    	},4000);
 		} else {
 
-			var url = '/resources/animation/'+id+'/data.json?ver=19';
+			var url = 'resources/animation/'+id+'/data.json?ver=19';
 
 		    fetch(url)
 		        .then(response => response.json())
@@ -1134,7 +1134,7 @@
 
 		            if (window.Worker) {
 		                if (!colorWorker) {
-		                    colorWorker = new Worker('/resources/js/colorWorker.js');
+		                    colorWorker = new Worker('resources/js/colorWorker.js');
 		                }
 
 		                colorWorker.postMessage({ lottieData: data, style: style, colors: colors });
@@ -1488,7 +1488,7 @@
 			        
 				        videoElement.muted = false; // 음소거 해제
 			            videoElement.play(); // 재생 시작
-			            $("#invitation_volume_icon").attr('src', '/resources/img/icon/icon-volume.png');
+			            $("#invitation_volume_icon").attr('src', 'resources/img/icon/icon-volume.png');
 			        
 			    });
 
@@ -1501,12 +1501,12 @@
 			            videoElement.muted = false; // 음소거 해제
 			            videoElement.play(); // 재생 시작
 			            last_music = true;
-			            $("#invitation_volume_icon").attr('src', '/resources/img/icon/icon-volume.png');
+			            $("#invitation_volume_icon").attr('src', 'resources/img/icon/icon-volume.png');
 			        } else {
 			            videoElement.muted = true; // 음소거 설정
 			            videoElement.pause(); // 재생 정지
 			            last_music = false;
-			            $("#invitation_volume_icon").attr('src', '/resources/img/icon/icon-volume-off.png');
+			            $("#invitation_volume_icon").attr('src', 'resources/img/icon/icon-volume-off.png');
 			        }
 			    }
 			    
@@ -1833,7 +1833,7 @@
             			break;
             		case "icon-blur":
             			temp = "selected-icon3";
-            			//applySVGToSingleClass('selected-icon3', '/resources/img/icon/icon-blur.svg', '#FF0000'); // 원하는 색상으로 변경
+            			//applySVGToSingleClass('selected-icon3', 'resources/img/icon/icon-blur.svg', '#FF0000'); // 원하는 색상으로 변경
             			break;
             	}
                 

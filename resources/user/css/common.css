@@ -77,7 +77,7 @@
 .preview-list-inner{width: 100%;overflow-x: auto;}
 .pl-item{display: inline-block;width: 158px;margin-right: 5px;aspect-ratio: 9/16;}
 .pl-item.on{position: relative;}
-.pl-item.on::after{content: '';background: url('/resources/img/icon/icon-chk.png') no-repeat center / 100% 100%;width: 34.5px;height: 34.5px;position: absolute;top: -5px;right: -5px;}
+.pl-item.on::after{content: '';background: url('resources/img/icon/icon-chk.png') no-repeat center / 100% 100%;width: 34.5px;height: 34.5px;position: absolute;top: -5px;right: -5px;}
 .pl-img{border: 2px solid #e6e6e6;width: 100%;overflow: hidden;border-radius: 20px;position: relative;}
 .pl-img.on{border: 2px solid #ff3582;}
 .pl-img>img{display: block;width: 100%;height: 100%;}
@@ -178,8 +178,8 @@
 
 /* input 달력 커스텀 */
 .info-mid>ul>li>div>input[type='date'] {padding: 10px;padding-left: 40px;background: none; border: 1px solid;position: relative;height: 50px;}
-.info-mid>ul>li>div>input[type='date']::-webkit-calendar-picker-indicator {position: absolute;left: 0;top: 50%;transform: translateY(-50%);width: 100%;height: 100%;background: url('/resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;cursor: pointer;color: transparent;opacity: 0}
-.info-mid>ul>li>div>input[type='date']::before {content: '';position: absolute;left: 10px;top: 50%;transform: translateY(-50%);width: 15px;height: 15px;background: url('/resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;pointer-events: none;}
+.info-mid>ul>li>div>input[type='date']::-webkit-calendar-picker-indicator {position: absolute;left: 0;top: 50%;transform: translateY(-50%);width: 100%;height: 100%;background: url('resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;cursor: pointer;color: transparent;opacity: 0}
+.info-mid>ul>li>div>input[type='date']::before {content: '';position: absolute;left: 10px;top: 50%;transform: translateY(-50%);width: 15px;height: 15px;background: url('resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;pointer-events: none;}
 .info-bot{line-height: 20px; border-top: 1px dashed #c9caca;margin: 0 25px;padding: 15px 0;padding-bottom: 20px;margin-top: 15px;}
 .info-bot>p{font-size: 14px;margin-bottom: 0 !important;}
 
@@ -342,7 +342,7 @@
 .preview-list-inner{width: 100%;overflow-x: auto;}
 .pl-item{display: inline-block;width: 158px;margin-right: 5px;aspect-ratio: 9/16;}
 .pl-item.on{position: relative;}
-.pl-item.on::after{content: '';background: url('/resources/img/icon/icon-chk.png') no-repeat center / 100% 100%;width: 34.5px;height: 34.5px;position: absolute;top: -5px;right: -5px;}
+.pl-item.on::after{content: '';background: url('resources/img/icon/icon-chk.png') no-repeat center / 100% 100%;width: 34.5px;height: 34.5px;position: absolute;top: -5px;right: -5px;}
 .pl-img{border: 2px solid #e6e6e6;width: 100%;overflow: hidden;border-radius: 20px;position: relative;}
 .pl-img.on{border: 2px solid #ff3582;}
 .pl-img>img{display: block;width: 100%;height: 100%;}
@@ -441,8 +441,8 @@
 .info-mid>ul.add-box>li.add-txt-in-sub{display: none;}
 /* input 달력 커스텀 */
 .info-mid>ul>li>div>input[type='date'] {padding: 10px;padding-left: 40px;background: none; border: 1px solid;position: relative;height: 50px;}
-.info-mid>ul>li>div>input[type='date']::-webkit-calendar-picker-indicator {position: absolute;left: 0;top: 50%;transform: translateY(-50%);width: 100%;height: 100%;background: url('/resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;cursor: pointer;color: transparent;opacity: 0}
-.info-mid>ul>li>div>input[type='date']::before {content: '';position: absolute;left: 10px;top: 50%;transform: translateY(-50%);width: 15px;height: 15px;background: url('/resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;pointer-events: none;}
+.info-mid>ul>li>div>input[type='date']::-webkit-calendar-picker-indicator {position: absolute;left: 0;top: 50%;transform: translateY(-50%);width: 100%;height: 100%;background: url('resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;cursor: pointer;color: transparent;opacity: 0}
+.info-mid>ul>li>div>input[type='date']::before {content: '';position: absolute;left: 10px;top: 50%;transform: translateY(-50%);width: 15px;height: 15px;background: url('resources/img/icon/icon-calendar.png') no-repeat center center;background-size: contain;pointer-events: none;}
 .info-bot{line-height: 20px; border-top: 1px dashed #c9caca;margin: 0 25px;padding: 15px 0;padding-bottom: 20px;margin-top: 15px;}
 .info-bot>p{font-size: 14px;margin-bottom: 0 !important;}
 
