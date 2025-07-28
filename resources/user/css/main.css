@@ -1,7 +1,7 @@
 h1,h2,h3,h4,h5,h6,p,span,strong,b,a{letter-spacing: -0.4px;}
 @font-face {
 	font-family: 'Pretendard';
-	src: local('Pretendard Regular'), url(resources/assets/font/Pretendard-Regular.woff2) format('woff2'), url(resources/assets/font/Pretendard-Regular.woff2) format('woff');
+	src: local('Pretendard Regular'), url(Pretendard-Regular.woff2) format('woff2'), url(Pretendard-Regular.woff2) format('woff');
 }
 
 
